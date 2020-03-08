@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "Dalek Pinpoint";
+  src: url("../fonts/.eot");
+  src: url("../fonts/DalekPinpointBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/DalekPinpointBold.woff2") format("woff2"),
+    url("../fonts/DalekPinpointBold.woff") format("woff"),
+    url("../fonts/DalekPinpointBold.ttf") format("truetype"),
+    url("../fonts/DalekPinpointBold.svg#DalekPinpointBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+header {
+  border: solid #4a1361;
+  box-shadow: inset 0 0 1em #4a1361, 0 0 2em #4a1361;
+  border-width: 100%;
+  position: relative;
+}
+.dev {
+  font-family: "Dalek Pinpoint";
+  font-size: 2.5rem;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  font-size: 3.5em;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin: 0;
+  transform: translate(0, -50%);
+}
+
+.logodevo {
+  flex: 1 1 100px;
+  flex-direction: row-reverse;
+}
+.subtitle {
+  text-align: center;
+  font-size: 1.9rem;
+}
+.borderp {
+  background-color: #4a1361;
+  border-radius: 30px;
+}
+.borderp p {
+  font-size: 2rem;
+  color: white;
+  padding-left: 20px;
+}
+.fa-check {
+  color: #f8bc05;
+  padding: 10px;
+}
+.cadre {
+  border: solid #4a1361;
+  box-shadow: inset 0 0 1em #4a1361, 0 0 2em #4a1361;
+  border-width: 100%;
+}
+.cadre p {
+  font-size: 1.7rem;
+  padding: 5px;
+}
+.fa-rss {
+  color: #000000;
+  padding: 10px;
+}
+.fa-rss:hover {
+  color: #f8bc05;
+}
+.fa-envelope {
+  color: #000000;
+  padding: 10px;
+}
+.fa-envelope:hover {
+  color: #f8bc05;
+  padding: 10px;
+}
+.fa-youtube {
+  color: #f80511;
+  padding: 10px;
+}
+.fa-twitter {
+  color: #05c7f8;
+  padding: 10px;
+}
+.fa-podcast {
+  color: #a50097;
+  padding: 10px;
+}
+h3 {
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.fa-php {
+  color: #4c02d4;
+  padding: 10px;
+}
+.fa-symfony {
+  color: #000000;
+  padding: 10px;
+}
+.fa-laravel {
+  color: #f84e24;
+  padding: 10px;
+}
+.fa-wordpress-simple {
+  color: #000000;
+  padding: 10px;
+}
+.fa-js {
+  color: #f0e10f;
+  padding: 10px;
+}
+.fa-react {
+  color: #0fe1f0;
+  padding: 10px;
+}
+.fa-docker {
+  color: #146bcf;
+  padding: 10px;
+}
+.fa-angular {
+  color: #d40617;
+  padding: 10px;
+}
+.fa-vuejs {
+  color: #068f4a;
+  padding: 10px;
+}
+.fa-thumbs-up {
+  padding: 10px;
+}
+.fa-heart {
+  padding: 10px;
+}
+.fa-share-alt {
+  padding: 10px;
+}
+.fa-code {
+  padding: 10px;
+}
+.contact p {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1.8rem;
+}
+.contact a {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  font-size: 5rem;
+}
+footer p {
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}
+.footer {
+  margin-top: 10px;
+  background-color: #4a1361;
+  padding-bottom: 2rem;
+}
+.devoramatitle {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.font {
+  background-image: url(../img/groupe\282png);
+}
+.divname {
+  margin: 10px;
+  background-color: #4a1361;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+.divmail {
+  margin: 10px;
+  background-color: #4a1361;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+.divmsg {
+  margin: 10px;
+  background-color: #4a1361;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
